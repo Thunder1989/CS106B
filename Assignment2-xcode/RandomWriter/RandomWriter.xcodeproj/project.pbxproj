@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87A5B7916A7D36500CEBFFC /* RandomWriter.icns in Resources */ = {isa = PBXBuildFile; fileRef = A87A5B7816A7D36500CEBFFC /* RandomWriter.icns */; };
+		A87A5B7E16A7D3AC00CEBFFC /* Hamlet.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A87A5B7B16A7D3AC00CEBFFC /* Hamlet.txt */; };
+		A87A5B7F16A7D3AC00CEBFFC /* Middlemarch.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A87A5B7C16A7D3AC00CEBFFC /* Middlemarch.txt */; };
+		A87A5B8016A7D3AC00CEBFFC /* TomSawyer.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A87A5B7D16A7D3AC00CEBFFC /* TomSawyer.txt */; };
+		A8C2033B169FA8C30073AC0C /* spl.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = A84D51A3169F8F75003540C4 /* spl.jar */; };
+		A8E07078140DD8260047C0C8 /* RandomWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E07077140DD8260047C0C8 /* RandomWriter.cpp */; };
+		E3DDB4120D2F60C500348E1D /* libStanfordCPPLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB4110D2F60C500348E1D /* libStanfordCPPLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A84D51A6169F8FB1003540C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				A8C2033B169FA8C30073AC0C /* spl.jar in CopyFiles */,
+				A87A5B7E16A7D3AC00CEBFFC /* Hamlet.txt in CopyFiles */,
+				A87A5B7F16A7D3AC00CEBFFC /* Middlemarch.txt in CopyFiles */,
+				A87A5B8016A7D3AC00CEBFFC /* TomSawyer.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* RandomWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84D51A3169F8F75003540C4 /* spl.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = spl.jar; sourceTree = "<group>"; };
+		A87A5B7816A7D36500CEBFFC /* RandomWriter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = RandomWriter.icns; sourceTree = "<group>"; };
+		A87A5B7B16A7D3AC00CEBFFC /* Hamlet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hamlet.txt; sourceTree = "<group>"; };
+		A87A5B7C16A7D3AC00CEBFFC /* Middlemarch.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Middlemarch.txt; sourceTree = "<group>"; };
+		A87A5B7D16A7D3AC00CEBFFC /* TomSawyer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TomSawyer.txt; sourceTree = "<group>"; };
+		A8E07077140DD8260047C0C8 /* RandomWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomWriter.cpp; sourceTree = "<group>"; };
+		E3DDB4110D2F60C500348E1D /* libStanfordCPPLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStanfordCPPLib.a; path = StanfordCPPLib/libStanfordCPPLib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DDB4120D2F60C500348E1D /* libStanfordCPPLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* RandomWriter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* RandomWriter */ = {
+			isa = PBXGroup;
+			children = (
+				A8E07077140DD8260047C0C8 /* RandomWriter.cpp */,
+				A84D51A3169F8F75003540C4 /* spl.jar */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = RandomWriter;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A87A5B7B16A7D3AC00CEBFFC /* Hamlet.txt */,
+				A87A5B7C16A7D3AC00CEBFFC /* Middlemarch.txt */,
+				A87A5B7D16A7D3AC00CEBFFC /* TomSawyer.txt */,
+				A87A5B7816A7D36500CEBFFC /* RandomWriter.icns */,
+				E3DDB4110D2F60C500348E1D /* libStanfordCPPLib.a */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* RandomWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RandomWriter" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				A84D51A6169F8FB1003540C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomWriter;
+			productInstallPath = "$(HOME)/Applications";
+			productName = RandomWriter;
+			productReference = 8D1107320486CEB800E47090 /* RandomWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RandomWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* RandomWriter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* RandomWriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87A5B7916A7D36500CEBFFC /* RandomWriter.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E07078140DD8260047C0C8 /* RandomWriter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/StanfordCPPLib\"";
+				PRODUCT_NAME = RandomWriter;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+					"-Wno-non-virtual-dtor",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = /tmp/RandomWriter;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = StanfordCPPLib;
+				OTHER_CFLAGS = "-fstack-check";
+				SDKROOT = "";
+				SYMROOT = /tmp/RandomWriter;
+				USER_HEADER_SEARCH_PATHS = StanfordCPPLib;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RandomWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RandomWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
